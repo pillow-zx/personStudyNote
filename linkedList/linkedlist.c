@@ -155,6 +155,44 @@ void deleteNode(Node *list) {
     }
 }
 
+void sortList(Node *list) {
+    if (list == NULL) {
+        perror("List is NULL\n");
+        return;
+    }
+
+    for (Node *i = list->next; i->next != NULL; i = i->next) {
+        for (Node *j = list->next; j->next != NULL; j = j->next) {
+            if (j->data > i->data) {
+                Data temp = j->data;
+                j->data = i->data;
+                i->data = temp;
+            }
+        }
+    }
+}
+
+void reverseList(Node *list) {
+    if (list == NULL) {
+        perror("List is NULL\n");
+        return;
+    }
+
+    //sortList(list);
+
+    Node *prev = NULL;
+    Node *current = list->next;
+    Node *temp = NULL;
+
+    while (current != NULL) {
+        temp = current->next;
+        current->next = prev;
+        prev = current;
+        current = temp;
+    }
+    list->next = prev;
+}
+
 void showList(Node *list) {
     if (list == NULL) {
         perror("List is NULL\n");

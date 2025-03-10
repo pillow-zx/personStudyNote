@@ -30,7 +30,10 @@ void deleteNodeItem(Node *list, Node *item);
 
 void deleteNode(Node *list);
 
-void showList(Node *list);
+void sortList(Node *list);
 
+void reverseList(Node *list);
+
+void showList(Node *list);
 
 #endif
