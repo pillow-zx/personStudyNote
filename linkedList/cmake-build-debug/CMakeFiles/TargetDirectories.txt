@@ -1,0 +1,3 @@
+/home/pillow/codes/c/clion/cmake-build-debug/CMakeFiles/clion.dir
+/home/pillow/codes/c/clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pillow/codes/c/clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
