@@ -4,4 +4,5 @@ project(binaryTree C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(binaryTree main.c
-)
+        binaryTree.c
+        binaryTree.h)
