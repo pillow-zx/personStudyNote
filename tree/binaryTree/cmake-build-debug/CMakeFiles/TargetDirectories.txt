@@ -1,3 +1,0 @@
-/home/pillow/user/googledrive/tree/binaryTree/cmake-build-debug/CMakeFiles/binaryTree.dir
-/home/pillow/user/googledrive/tree/binaryTree/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pillow/user/googledrive/tree/binaryTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

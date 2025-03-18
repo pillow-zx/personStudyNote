@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "binaryTree.h"
 
+
+
 Node *createNode(Data data) {
     Node *newNode = (Node *)malloc(sizeof(Node));
     if (newNode == NULL) {

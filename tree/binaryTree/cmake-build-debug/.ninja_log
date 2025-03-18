@@ -1,9 +1,0 @@
-# ninja log v6
-0	19	1742027583538782817	CMakeFiles/binaryTree.dir/main.c.o	7e31b90a0d27d90e
-0	21	1742027583539734544	CMakeFiles/binaryTree.dir/binaryTree.c.o	1d45d0f7f7086a03
-21	37	1742027583559782553	binaryTree	ea6cdb10f9348010
-1	19	1742027686062493920	CMakeFiles/binaryTree.dir/main.c.o	7e31b90a0d27d90e
-19	37	1742027686080493694	binaryTree	ea6cdb10f9348010
-1	35	1742028422820231621	CMakeFiles/binaryTree.dir/main.c.o	7e31b90a0d27d90e
-0	26	1742028480651504583	CMakeFiles/binaryTree.dir/binaryTree.c.o	1d45d0f7f7086a03
-26	44	1742028480677504256	binaryTree	ea6cdb10f9348010
