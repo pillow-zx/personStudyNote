@@ -1,0 +1,13 @@
+command = /usr/bin/zsh
+# 设置主字体
+font-family = "Maple Mono"
+# 设置字体大小（以像素为单位）
+font-size = 12
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+window-decoration = true 
+theme = "onedark"
+cursor-color = e5c07b
+selection-background = 405060
+selection-foreground = dcdfe4

@@ -1,0 +1,30 @@
+Appearance & Style {
+    Global Theme: WhiteSur-alt
+    Colors: WhiteSur
+    Application Style: Breeze
+    Plasma Style: WhiteSur-alt
+    Window Decorations: WhiteSur
+    Icons:McMojave-circle
+    Cursors: WhiteSur Cursors
+    System Sounds: Ocean
+    Splash Screen: archsimplebule
+    Login Screen(SDDM): Breeze
+}
+
+Window Management {
+    Zoom
+    Desaturate Unresponsive Application
+    Fading Popups
+    Fading Popups
+    Full Screen
+    Hightlight Screen Edges and Hot Corners
+    Login
+    Logout
+    Maximize
+    Sliding Popups
+    Dialog Parent
+    Window Aperture
+    Slide
+    Overview
+    Scale
+}
