@@ -280,21 +280,54 @@ grub-mkconfig -o /boot/grub/grub.cfg					#更新grub引导
 
 接下来安装kde桌面
 
+1.完整安装kde桌面：
+
 ```bash
 pacman -S xorg pllasma kde-applications					#完整安装kde桌面
 ```
 
 有y按y,没y回车
 
-最后输入
+
+
+2.简化安装kde桌面：
+
+```bash
+pacman -S xorg plasma
+```
+
+
+
+最后输入(无论kde是否完整安装都要安装开机自启管理)
 
 ```bash
 systemctl enable sddm									#开机自启显示管理
+```
+
+
+
+如何选择简化安装则需要额外输入：
+
+```bash
+pacman -S konsole ark dolpin kate 
+```
+
+来安装必备应用
+
+
+
+之后输入：
+
+```bash
 
 exit													#退出系统
 
 reboot													#重启
 ```
+
+完成安装
+
+
 
 5.至此已经成功安装archlinux
 
